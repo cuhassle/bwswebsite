@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,11 +7,16 @@
 }
 
 .fire{
-
+    background-color: #f02020;
+    background-image: url("assets/firebg.png");
+    background-repeat: repeat-x;
+    background-position-y: center;
+    background-size: cover;
+    color: #007BFF;
 }
 
 .water{
-
+    background-color:#4488FF
 }
 
 .container {
@@ -29,9 +36,9 @@
 }
 
 .content h1 {
-    font-size: 2.5rem;
+    font-size: 5rem;
     margin-bottom: 20px;
-    color: #333;
+    font-family: "Jolly Lodger", system-ui;
 }
 
 nav ul {
@@ -46,9 +53,8 @@ nav ul li {
 }
 
 nav ul li a {
-    text-decoration: none;
+    text-decoration: underline;
     font-size: 18px;
-    color: #007BFF;
 }
 
 nav ul li a:hover {
