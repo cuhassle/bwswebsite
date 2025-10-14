@@ -16,7 +16,7 @@
 }
 
 .water{
-    background-color:#4488FF
+    background-color:#4488FF;
 }
 
 .container {
@@ -62,6 +62,8 @@ nav ul li a:hover {
 }
 
 footer {
+    position:relative;
+    width: 100%;
     padding: 20px 0;
     text-align: center;
 }
