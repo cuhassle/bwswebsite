@@ -1,22 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap');
+:root {
+    --bg-color:#333;
+    --secondary-contrast:#407080;
+    --contrast-color:#00BFFF;
+    --main-color:#FFA600;
+    --secondary-color:#FF5500;
+}
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+}
+
+body{
+    background-image: url("assets/firebg.png");
 }
 
 .fire{
-    background-color: #f02020;
-    background-image: url("assets/firebg.png");
-    background-repeat: repeat-x;
+    background-color: var(--secondary-contrast);
     background-position-y: center;
     background-size: cover;
-    color: #007BFF;
+    color: var(--main-color);
 }
 
 .water{
-    background-color:#4488FF;
+    background-color:var(--bg-color);
 }
 
 .container {
@@ -29,6 +38,8 @@
 }
 
 .content {
+    margin:20px;
+    margin-top: 0;
     text-align: center;
     padding: 30px;
     border-radius: 8px;
@@ -36,12 +47,14 @@
 }
 
 .content h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     margin-bottom: 20px;
-    font-family: "Jolly Lodger", system-ui;
 }
 
 nav ul {
+    border-radius: 50px;
+    margin:10px 100px;
+    background-color: var(--main-color);
     list-style-type: none;
     display:flex;
     justify-content: center;
@@ -53,12 +66,13 @@ nav ul li {
 }
 
 nav ul li a {
-    text-decoration: underline;
+    color:var(--secondary-contrast);
+    text-decoration: none;
     font-size: 18px;
 }
 
 nav ul li a:hover {
-    color: #0056b3;
+    color: var(--contrast-color);
 }
 
 footer {
