@@ -15,6 +15,8 @@
 
 body{
     background-image: url("assets/firebg.png");
+    background-size:auto;
+    background-position: top;
 }
 
 .fire{
@@ -38,12 +40,14 @@ body{
 }
 
 .content {
+    text-align: center;
+    display: block;
     margin:20px;
     margin-top: 0;
-    text-align: center;
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: auto;
 }
 
 .content h1 {
@@ -108,4 +112,16 @@ footer {
 .fa-discord {
     background: #7289da;
     color: white;
+}
+
+#gamecontainer {
+    height: 100%;
+    border:none;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    padding:0;
+}
+.gamediv {
+    overflow: visible;
+    padding:0;
 }
