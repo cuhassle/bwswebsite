@@ -126,3 +126,14 @@ footer {
     overflow: visible;
     padding:0;
 }
+
+#catalog{
+
+}
+
+.catalog-item {
+    margin:5px;
+    padding:10px;
+    border-radius: 5px;
+    width:100%;
+}
