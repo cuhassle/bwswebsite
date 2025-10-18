@@ -16,7 +16,8 @@
 body{
     background-image: url("assets/firebg.png");
     background-size:auto;
-    background-position: top;
+    background-position: bottom;
+    background-repeat: no-repeat;
 }
 
 .fire{
@@ -123,7 +124,7 @@ footer {
 }
 #gamediv {
     display:none;
-    overflow: visible;
+    overflow: scroll;
     padding:0;
 }
 
@@ -136,4 +137,12 @@ footer {
     padding:10px;
     border-radius: 5px;
     width:100%;
+    display:flex;
+    justify-content:space-around;
+}
+
+.game-entryinfo {
+    max-width: 60%;
+    display:grid;
+    place-items: center;
 }
