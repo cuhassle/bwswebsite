@@ -18,7 +18,7 @@ var games = [
         "Parkour02", 
         "./parkour02", 
         "./parkour02/Parkor02Logo.png", 
-        "TESTSETESTESTESTESTESETESTESTSETE STSTESTSETESTESTESTESTESETEST ESTSETESTSTESTSETESTESTE STESTESETESTESTSETESTSsssss/parkour02/Parkor02Logo.png/parkour02/Parkor02Logo.png")
+        "Parkour rage game, very hard.")
 ]
 
 document.addEventListener("DOMContentLoaded", populategamecatalog);
